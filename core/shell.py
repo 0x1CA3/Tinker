@@ -14,7 +14,7 @@ from core.modules.restart_device import *
 
 class LoadRecoveryShell:
     def __init__(self):
-        self.display = "iPhone [0x5AC, 0x1281] -> "
+        self.display = "iDevice [0x5AC, 0x1281] -> "
     
     def shell(self) -> None:
         try:
@@ -39,7 +39,7 @@ class LoadRecoveryShell:
 
 class LoadDFUShell:
     def __init__(self):
-        self.display = "iPhone [0x5AC, 0x1227] -> "
+        self.display = "iDevice [0x5AC, 0x1227] -> "
     
     def shell(self) -> None:
         try:
@@ -63,7 +63,7 @@ class LoadDFUShell:
 
 class LoadNormalShell:
     def __init__(self):
-        self.display = "iPhone [0x5AC, 0x12A8] -> "
+        self.display = "iDevice [0x5AC, 0x12A8] -> "
     
     def shell(self) -> None:
         dev = usb.core.find(idVendor=0x5AC, idProduct=0x12a8)
