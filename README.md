@@ -22,7 +22,6 @@ Restart Device | You have the option to restart your iOS device, if its in recov
 Battery Fun | A little fun feature that makes the iOS device's battery go crazy.
 
 ## Screenshots
-![image](https://user-images.githubusercontent.com/86132648/134827900-82203742-0dee-49ec-a45e-2cefac3822d1.png)
 
 ## Credits
 ```
