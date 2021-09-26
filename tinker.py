@@ -1,7 +1,7 @@
 from core.shell import *
 
 
-# tinker
+# Tinker
 # Date: 09/22/21
 # Author: 0x1CA3
 
