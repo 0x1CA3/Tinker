@@ -10,7 +10,18 @@
 	<a href="https://deno.land" target="_blank">
     	<img src="https://img.shields.io/badge/Version-1.0.0-7DCDE3?style=for-the-badge" alt="Version">
 </p>
-  
+
+## Installation & Setup
+```
+WARNING: Make sure you look into PyUSB and make sure you set it up correcty or
+else some features will NOT work. If you're on Windows make sure to copy the needed DLL's into
+your system32 folder.
+
+pip3 install pyusb
+pip3 install terminaltables
+python3 tinker.py
+```
+
 ## Modules
 Module  | Description
 -------- | -----------
